@@ -553,7 +553,7 @@
     console.log(`Finished loading in ${endTime - startTime}ms`);
   }
 
-  window.finishLoading = finishLoading;
+  document.finishLoading = finishLoading;
 
   ////////////////////////////////////////////////////////////////////////////////
   // Drawing
